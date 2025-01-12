@@ -16,3 +16,5 @@ add 26 for alphabets-num...mod 26
 ## count no of 1 bits in binary representation (num is integer)
 
 num.bit_count()
+
+
