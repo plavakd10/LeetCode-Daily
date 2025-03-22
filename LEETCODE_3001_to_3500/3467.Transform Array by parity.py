@@ -1,4 +1,4 @@
-def transformArray(self, nums: List[int]) -> List[int]:
+def transformArray(nums):
     odd_count = 0
     even_count = 0
     for i in nums:
