@@ -24,5 +24,11 @@ num & (1 << i) == 0   Check if i-th bit is unset
 num ^= (1 << i)       flip 1 to 0
 num |= (1 << i)       flip 0 to 1
 
+## functools reduce
+
+from functools import reduce
+from operator import xor
+res = reduce(xor,list)  performs XOR operation of all list elements
+
 
 
