@@ -1,2 +1,2 @@
-def minOperations(self, nums: List[int], k: int) -> int:
+def minOperations(nums, k: int) -> int:
     return sum(nums)%k
