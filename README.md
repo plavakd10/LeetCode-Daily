@@ -30,5 +30,15 @@ from functools import reduce
 from operator import xor
 res = reduce(xor,list)  performs XOR operation of all list elements
 
+## for else
+
+for:
+    abc
+    break
+else:
+    xyz
+
+else part executed if loop completes without hitting a break        
+
 
 
