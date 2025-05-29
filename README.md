@@ -38,7 +38,11 @@ for:
 else:
     xyz
 
-else part executed if loop completes without hitting a break        
+else part executed if loop completes without hitting a break   
+
+## SQL
+
+group_concat
 
 
 
