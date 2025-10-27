@@ -1,5 +1,5 @@
 from collections import Counter
-def findRestaurant(list1,list2) -> List[str]:
+def findRestaurant(list1,list2):
     set1 = set(list1)
     set2 = set(list2)
 
