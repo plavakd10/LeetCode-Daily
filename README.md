@@ -44,5 +44,12 @@ else part executed if loop completes without hitting a break
 
 group_concat
 
+## itertools - product
+
+from itertools import product
+s1 = "ab"
+s2 = "cd"
+[''.join(p) for p in product(s1, s2)] outputs ['ac','ad','bc','bd']
+
 
 
