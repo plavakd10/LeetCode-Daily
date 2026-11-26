@@ -12,4 +12,4 @@ def countDominantElements(self, nums: list[int]) -> int:
             count+=1
         if x*count >= nb_sum:
             dom+=1
-    return dom  
+    return dom
